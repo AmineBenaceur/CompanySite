@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<title>Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="lemon.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+</style>
+<body class="site-body" >
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;background-color:#cc0066;">
+    <a href="#home" class="w3-bar-item w3-button">Home</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#menu" class="w3-bar-item w3-button">Operations</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+<head>
+  <!--We added the google analytics tracking code__>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142488797-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-142488797-1');
+</script>
+</head>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="heroimage.jpg" alt="Lemon tree" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Le Platform</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- ABout Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center"> ABOUT US </h1><br>
+
+          <br>
+      <h2> We are TRINLE! </h4>
+        <p class="w3-text-grey">Created in Canada, TRINLE offers coaches of individual sports a place to schedule private lessons, seamlessly create invoices, and track their athletes' progress.</p><p class="w3-text-grey">No more lost papers. No more manual calculations.</p>
+
+            <h2> Our Mission </h4>
+      <p class="w3-text-grey w3-large">Our vision is to ensure you can focus on your passion and athletes, not the technical difficulties of running a small business.</p><br>
+    </div>
+
+    <div class="w3-col l6 w3-padding-large">
+      <img src="https://images.pexels.com/photos/2102416/pexels-photo-2102416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+  <!-- Operations Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">OUR BUSINESS </h1><br>
+      <h4> TRACK </h4>
+      <p class="w3-text-grey ">Each athlete has their own profile where you can easily access the progress they have made with videos, notes, and to-do lists.</p>
+      <p class="w3-text-grey">Typical Boring Platform Talk</p><br>
+      <h4> INVOICE </h4>
+      <p class="w3-text-grey">Quickly create invoices by selecting your athlete's name and the date range.</p>
+      <p class="w3-text-grey">TRINLE will do the heavy lifting and pull the lesson and billing information from your schedule and the athlete's profile.</p><br>
+      <h4> SCHEDULE </h4>
+      <p class="w3-text-grey">Make scheduling a breeze by setting your available hours and having all your athlete's schedules in one place.</p>
+      <p class="w3-text-grey">Feel free to connect your current calendar for optimal organization!</p><br>
+    </div>
+
+    <div class="w3-col l6 w3-padding-large">
+      <img src="https://images.pexels.com/photos/1823767/pexels-photo-1823767.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>CONTACT</h1><br>
+    <p>If you have any issues or questions regarding the use of TRINLE feel free to contact us!</p>
+    <p class="w3-text-blue-grey w3-large"><b>TRINLE, UNIVERSITY OF CALGARY, 2500 university Dr, T2N1N4 Calgary, AB</b></p>
+  <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20calgary&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.bitgeeks.net/embed-google-map/">bitgeeks.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+
+  <p>You can also contact us by phone 00553123-2323 or email trinle@ucalgary.ca, or you can send us a message here:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required="" name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Issue" required="" name="Issue"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Details of your Inquiry" required="" name="Details"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+    </form>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green w3-center" >w3.css</a></p>
+</footer>
+
+</body>
+</html>
